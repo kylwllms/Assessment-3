@@ -1,0 +1,60 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+	background-color: yellow;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+.favButtons {
+	margin-top: 5px;
+	background-color: yellow;
+	border-color: rgb(226, 216, 73);
+	border-radius: 25px;
+	height: 75px;
+	width: 300px;
+	box-shadow: 5px 10px #888888;
+	margin-bottom: 2em;
+	text-align: center;
+	font-weight: 800;
+  }
+  .favButtons:hover {
+	background-color: #33048a;
+  }
+  
+  .favButtons:active {
+	background-color: #4309e2;
+	box-shadow: 0 5px rgb(146, 145, 145);
+	transform: translateY(4px);
+  }
